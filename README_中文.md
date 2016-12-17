@@ -1,20 +1,19 @@
 # WWFPSIndicator #
-A CADisplayLink based FPS indicator which showes on the screen
-[detail for this FPSIndicator](http://www.jianshu.com/p/86705c95c224)
-
+一个基于CADisplayLink，可现实于屏幕上的FPS指示器
+[关于此FPS的详细说明](http://www.jianshu.com/p/86705c95c224)
 
 
 # Usage #
-Add the code to AppDelegate.m
+将下面的代码添加到AppDelegate.m
 ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
-    //start
+    //开始
     [[WWFPSIndicator sharedInstance] start];
-    //set the fps refresh frequency
+    //设置更新频率
     [WWFPSIndicator sharedInstance].frequency = WWFPSIndicatorRefreshFrequencyNormal;
-    //set the text style
+    //设置文本样式
     [WWFPSIndicator sharedInstance].textStyle = WWFPSIndicatorTextStyleNormal;
 
 
@@ -22,10 +21,10 @@ Add the code to AppDelegate.m
 }
 ```
 
-use this code to stop:
+用下面的代码停止FPS指示器:
 ```
-    //stop
-    [[WWFPSIndicator sharedInstance] stop];
+//停止
+[[WWFPSIndicator sharedInstance] stop];
 ```
 
 
