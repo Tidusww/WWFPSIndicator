@@ -1,6 +1,7 @@
 # WWFPSIndicator #
-一个基于CADisplayLink，可现实于屏幕上的FPS指示器
-[关于此FPS的详细说明](http://www.jianshu.com/p/86705c95c224)
+一个基于CADisplayLink实现的，可显示于屏幕上的FPS指示器。
+
+[关于此FPS的更多说明](http://www.jianshu.com/p/86705c95c224)
 
 
 # Usage #

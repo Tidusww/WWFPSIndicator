@@ -1,6 +1,7 @@
 # WWFPSIndicator #
-A CADisplayLink based FPS indicator which showes on the screen
-[detail for this FPSIndicator](http://www.jianshu.com/p/86705c95c224)
+A CADisplayLink-based FPS indicator which can showe on the screen.
+
+[more details for this FPSIndicator](http://www.jianshu.com/p/86705c95c224)
 
 
 
