@@ -29,5 +29,6 @@ use this code to stop:
     [[WWFPSIndicator sharedInstance] stop];
 ```
 
+Demo：
 
 ![Demo](https://raw.githubusercontent.com/Tidusww/WWFPSIndicator/master/fps.gif)

@@ -28,5 +28,5 @@
 [[WWFPSIndicator sharedInstance] stop];
 ```
 
-
+Demo：
 ![Demo](https://raw.githubusercontent.com/Tidusww/WWFPSIndicator/master/fps.gif)
