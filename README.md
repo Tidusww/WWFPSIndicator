@@ -6,7 +6,7 @@ A CADisplayLink-based FPS indicator which can showe on the screen.
 
 
 # Usage #
-Add the code to AppDelegate.m
+Add this code to AppDelegate.m
 ```
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

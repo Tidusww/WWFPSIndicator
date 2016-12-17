@@ -18,9 +18,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //start
     [[WWFPSIndicator sharedInstance] start];
-    [WWFPSIndicator sharedInstance].frequency = WWFPSIndicatorRefreshFrequencyNormal;
-    [WWFPSIndicator sharedInstance].textStyle = WWFPSIndicatorTextStyleNormal;
+    //set the fps refresh frequency
+    [WWFPSIndicator sharedInstance].frequency = WWFPSIndicatorRefreshFrequencyMedium;
+    //set the text style
+    [WWFPSIndicator sharedInstance].textStyle = WWFPSIndicatorTextStyleColorful;
+    
+    //stop
+//    [[WWFPSIndicator sharedInstance] stop];
     
     return YES;
 }

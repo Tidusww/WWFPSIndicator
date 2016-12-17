@@ -278,25 +278,20 @@
     
     //下面的设置会消耗GPU性能
     //设置圆角
-//    view.layer.cornerRadius = 5;
-//    
+    view.layer.cornerRadius = 5;
+//
 //    
 //    //设置阴影
-//    view.layer.shadowColor = [UIColor grayColor].CGColor;
-//    view.layer.shadowOpacity = 0.5f;
-//    view.layer.shadowRadius = 5;
-//    view.layer.shadowOffset = CGSizeMake(0, 5);
-//    
+    view.layer.shadowColor = [UIColor grayColor].CGColor;
+    view.layer.shadowOpacity = 0.5f;
+    view.layer.shadowRadius = 5;
+    view.layer.shadowOffset = CGSizeMake(0, 5);
+//
 //    
 //    //光栅化
 //    view.layer.shouldRasterize = YES;
 //    view.layer.rasterizationScale = [[UIScreen mainScreen] scale];
     
-    //    if(view.layer.opacity == 1){
-    //        [view.layer setOpaque:YES];
-    //        [view setOpaque:YES];
-    //        [view setAlpha:1];
-    //    }
     
 }
 
